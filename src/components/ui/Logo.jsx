@@ -6,7 +6,6 @@ export default function Logo({ className = '', showText = true }) {
 
   return (
     <Link to="/" className={`flex items-center gap-2.5 ${className}`}>
-      {/* Sociovate mark: hub network — center node + orbiting connections, violet→cyan gradient */}
       <svg
         width="34"
         height="34"
@@ -16,16 +15,13 @@ export default function Logo({ className = '', showText = true }) {
         className="shrink-0"
         aria-hidden="true"
       >
-        <rect x="4" y="4" width="56" height="56" rx="16" fill={`url(#${gradientId})`} />
-        <circle cx="32" cy="32" r="7" fill="#ffffff" />
-        <circle cx="17" cy="19" r="4.5" fill="#ffffff" opacity="0.92" />
-        <circle cx="47" cy="19" r="4.5" fill="#ffffff" opacity="0.92" />
-        <circle cx="17" cy="45" r="4.5" fill="#ffffff" opacity="0.92" />
-        <circle cx="47" cy="45" r="4.5" fill="#ffffff" opacity="0.92" />
-        <path d="M20 22 L27 28" stroke="#ffffff" strokeWidth="2.25" strokeLinecap="round" opacity="0.85" />
-        <path d="M44 22 L37 28" stroke="#ffffff" strokeWidth="2.25" strokeLinecap="round" opacity="0.85" />
-        <path d="M20 42 L27 36" stroke="#ffffff" strokeWidth="2.25" strokeLinecap="round" opacity="0.85" />
-        <path d="M44 42 L37 36" stroke="#ffffff" strokeWidth="2.25" strokeLinecap="round" opacity="0.85" />
+        <rect x="8" y="8" width="48" height="48" rx="14" fill={`url(#${gradientId})`}/>
+        <circle cx="32" cy="32" r="6" fill="#fff"/>
+        <circle cx="18" cy="20" r="4" fill="#fff" opacity="0.9"/>
+        <circle cx="46" cy="20" r="4" fill="#fff" opacity="0.9"/>
+        <circle cx="32" cy="46" r="4" fill="#fff" opacity="0.9"/>
+        <path d="M21 23l7 6M43 23l-7 6M32 38v4" stroke="#fff" strokeWidth="2.2" strokeLinecap="round" opacity="0.85"/>
+
         <defs>
           <linearGradient
             id={gradientId}
@@ -42,7 +38,7 @@ export default function Logo({ className = '', showText = true }) {
       </svg>
 
       {showText && (
-        <span className="text-xl font-display font-bold gradient-text tracking-tight">
+        <span className="text-xl font-display font-semibold tracking-tight text-ink">
           Sociovate
         </span>
       )}
