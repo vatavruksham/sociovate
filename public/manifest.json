@@ -1,0 +1,16 @@
+{
+  "name": "Sociovate — AI Social Media Automation Hub",
+  "short_name": "Sociovate",
+  "description": "Create, publish, analyze, and engage from one AI-powered social media dashboard.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf8ff",
+  "theme_color": "#7c3aed",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
