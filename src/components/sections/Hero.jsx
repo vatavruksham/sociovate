@@ -53,8 +53,8 @@ export default function Hero() {
               className={`mx-auto mt-6 max-w-xl text-lg leading-relaxed text-ink-soft lg:mx-0 ${enter()}`}
               style={stagger(160)}
             >
-              Create, publish, analyze, and engage from one dashboard. Sociovate plans
-              your content calendar, drafts posts, auto-publishes everywhere, and turns
+              Create, publish, analyze, and engage from one dashboard. Plan your
+              content calendar, draft posts, auto-publish everywhere, and turn
               engagement into insight — so every brand you manage runs itself.
             </p>
 

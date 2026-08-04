@@ -53,7 +53,7 @@ const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'
 
 const goalIdeas = {
   followers: [
-    'Behind-the-scenes look at how {brand} creates its products',
+    'Behind-the-scenes look at how your team creates products',
     'Quick tips your audience can use today',
     'Trending audio remix showcasing your brand personality',
     'Ask-me-anything post to spark comments',
@@ -80,13 +80,13 @@ const goalIdeas = {
     'Weekly roundup celebrating your community',
   ],
   awareness: [
-    'Founder story introducing {brand}\u2019s mission',
+    'Founder story introducing your mission',
     'Educational carousel on your industry',
     'Milestone or achievement announcement',
-    'A day in the life at {brand}',
+    'A day in the life on your team',
     'Industry trend commentary from your team',
     'Partnership or collaboration spotlight',
-    'Values-driven post on what makes {brand} different',
+    'Values-driven post on what makes you different',
   ],
 };
 
@@ -118,8 +118,8 @@ export default function AIDemo() {
       const nextPlan = days.map((day, i) => {
         const platform = activePlatforms[i % activePlatforms.length];
         const format = platform.formats[i % platform.formats.length];
-        const idea = ideas[i % ideas.length].replace('{brand}', brandLabel);
-        return { day, platform, format, idea };
+        const idea = ideas[i % ideas.length];
+        return { day, platform, format, idea, brandType: brandLabel };
       });
 
       setPlan(nextPlan);
@@ -146,7 +146,7 @@ export default function AIDemo() {
         <SectionHeading
           eyebrow="Live AI Demo"
           title="Test the AI Right Here"
-          subtitle="Pick your brand type, platforms, and goal — Sociovate plans a full week of content, matched to your audience and objective, in seconds."
+          subtitle="Pick your brand type, platforms, and goal — AI plans a full week of content, matched to your audience and objective, in seconds."
         />
 
         <div className="glass mx-auto max-w-4xl rounded-3xl p-6 sm:p-8">
