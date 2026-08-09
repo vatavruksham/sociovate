@@ -3,7 +3,7 @@ import { Mail, Lock, User } from 'lucide-react';
 import useDocumentTitle from '../hooks/useDocumentTitle';
 
 export default function Login() {
-  useDocumentTitle('Login — Sociovate');
+  useDocumentTitle('Login - Sociovate');
   const [isLogin, setIsLogin] = useState(true);
 
   return (

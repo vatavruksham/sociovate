@@ -7,7 +7,7 @@ import Testimonials from '../components/sections/Testimonials';
 import CTABanner from '../components/sections/CTABanner';
 
 export default function Home() {
-  useDocumentTitle('Sociovate — Run Your Social Hub with AI');
+  useDocumentTitle('Sociovate - Run Your Social Hub with AI');
 
   return (
     <>

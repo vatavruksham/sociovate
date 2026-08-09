@@ -30,7 +30,7 @@ function FAQItem({ q, a }) {
 }
 
 export default function Pricing() {
-  useDocumentTitle('Pricing — Sociovate');
+  useDocumentTitle('Pricing - Sociovate');
 
   return (
     <>

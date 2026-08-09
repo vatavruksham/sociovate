@@ -2,7 +2,7 @@ import useDocumentTitle from '../hooks/useDocumentTitle';
 import SectionHeading from '../components/ui/SectionHeading';
 
 export default function Terms() {
-  useDocumentTitle('Terms of Service — Sociovate');
+  useDocumentTitle('Terms of Service - Sociovate');
 
   return (
     <>

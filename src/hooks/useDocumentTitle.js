@@ -1,12 +1,12 @@
 import { useEffect } from 'react';
 
-const DEFAULT_TITLE = 'Sociovate — AI Social Media Automation Hub';
+const DEFAULT_TITLE = 'Sociovate - AI Social Media Automation Hub';
 
 export default function useDocumentTitle(title, description) {
   useEffect(() => {
     const previousTitle = document.title;
 
-    document.title = title ? `${title} | Sociovate` : DEFAULT_TITLE;
+    document.title = title ? `${title} - Sociovate` : DEFAULT_TITLE;
 
     let metaDescription = document.querySelector('meta[name="description"]');
     const previousDescription = metaDescription
