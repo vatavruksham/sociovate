@@ -44,10 +44,10 @@ export default function Footer() {
             </p>
             <p className="text-sm text-ink-soft">
               <a
-                href="mailto:support@sociovate.io"
+                href="mailto:support@sociovate.co"
                 className="transition-colors duration-300 hover:text-primary"
               >
-                support@sociovate.io
+                support@sociovate.co
               </a>
             </p>
           </div>
@@ -115,7 +115,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="mt-8 border-t border-surface-200 pt-8 text-center">
           <p className="text-sm text-ink-muted">
-            Sociovate @ 2026 | All rights reserved.
+            © 2026 Sociovate. All rights reserved.
           </p>
         </div>
       </div>

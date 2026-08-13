@@ -130,8 +130,8 @@ export default function Contact() {
 
           <p className="mt-6 text-center text-sm text-ink-muted">
             Or email us directly at{' '}
-            <a href="mailto:support@sociovate.io" className="text-primary hover:underline">
-              support@sociovate.io
+            <a href="mailto:support@sociovate.co" className="text-primary hover:underline">
+              support@sociovate.co
             </a>
           </p>
         </div>

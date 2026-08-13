@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="manifest" href="/manifest.json" />
+    <link rel="canonical" href="https://sociovate.co/" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#7c3aed" />
     <meta
@@ -13,14 +14,18 @@
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sociovate.co/" />
     <meta property="og:title" content="Sociovate - AI Social Media Automation Hub" />
     <meta
       property="og:description"
       content="Create, publish, analyze, and engage from one AI-powered dashboard. Sociovate runs your entire social media hub automatically."
     />
-    <meta property="og:image" content="/images/og.jpg" />
+    <meta property="og:image" content="https://sociovate.co/images/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://sociovate.co/images/og.jpg" />
 
-    <!-- Fonts: Space Grotesk (display) + Work Sans (body) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -29,16 +34,85 @@
     />
 
     <title>Sociovate - AI Social Media Automation Hub</title>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "name": "Sociovate",
+            "url": "https://sociovate.co/",
+            "email": "support@sociovate.co",
+            "logo": "https://sociovate.co/favicon.svg",
+            "description": "AI social media automation hub for content creation, publishing, analytics, and engagement."
+          },
+          {
+            "@type": "SoftwareApplication",
+            "name": "Sociovate",
+            "applicationCategory": "BusinessApplication",
+            "operatingSystem": "Web",
+            "url": "https://sociovate.co/",
+            "description": "AI social platform that manages content creation, publishing, analytics, and engagement from one dashboard.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Crawlable static HTML for non-JS bots (removed after React mounts) -->
+    <main
+      id="seo-content"
+      style="font-family: system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.6;"
+    >
+      <h1>Sociovate</h1>
+      <p>AI social media automation hub for content creation, publishing, analytics, and engagement.</p>
+      <p>
+        AI social platform that manages content creation, publishing, analytics, and engagement from one dashboard.
+        Sociovate is an AI product company building software powered by machine
+        learning and accelerated compute - not a consulting or outsourced development firm.
+      </p>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/features">Features</a></li>
+          <li><a href="/pricing">Pricing</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/contact">Support</a></li>
+          <li><a href="/privacy">Privacy Policy</a></li>
+          <li><a href="/terms">Terms</a></li>
+        </ul>
+      </nav>
+      <p>Contact: <a href="mailto:support@sociovate.co">support@sociovate.co</a></p>
+    </main>
+
     <script type="module" src="/src/main.jsx"></script>
-      <noscript>
+
+    <noscript>
       <main style="font-family: system-ui, sans-serif; max-width: 42rem; margin: 2rem auto; padding: 0 1rem; line-height: 1.6;">
         <h1>Sociovate</h1>
-        <p>AI social media automation hub for planning, publishing, and analytics.</p>
-        <p>Sociovate is an AI product company building software powered by machine learning and accelerated compute — not a consulting or outsourced development firm.</p>
-        <p><a href="/about">About Sociovate</a> · <a href="/features">Features</a> · <a href="/pricing">Pricing</a> · <a href="/contact">Contact</a></p>
+        <p>AI social media automation hub for content creation, publishing, analytics, and engagement.</p>
+        <p>
+          Sociovate is an AI product company building software powered by machine
+          learning and accelerated compute - not a consulting or outsourced development firm.
+        </p>
+        <p>
+          <a href="/about">About</a> ·
+          <a href="/contact">Contact</a> ·
+          <a href="/contact">Support</a> ·
+          <a href="/privacy">Privacy Policy</a> ·
+          <a href="/terms">Terms</a> ·
+          <a href="/features">Features</a> ·
+          <a href="/pricing">Pricing</a>
+        </p>
+        <p><a href="mailto:support@sociovate.co">support@sociovate.co</a></p>
       </main>
     </noscript>
   </body>

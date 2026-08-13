@@ -58,7 +58,7 @@ export default function Terms() {
 
           <h3 className="font-display font-bold text-ink">7. Contact</h3>
           <p className="leading-relaxed text-ink-soft">
-            Questions about these terms? Contact us at support@sociovate.io.
+            Questions about these terms? Contact us at support@sociovate.co.
           </p>
         </div>
       </section>

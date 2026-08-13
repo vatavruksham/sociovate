@@ -50,12 +50,12 @@ export default function Privacy() {
           <p className="mb-4 leading-relaxed text-ink-soft">
             You have the right to access, correct, or delete your personal data. You may
             also request data portability or restrict processing. Contact us at
-            support@sociovate.io to exercise these rights.
+            support@sociovate.co to exercise these rights.
           </p>
 
           <h3 className="font-display font-bold text-ink">6. Contact</h3>
           <p className="leading-relaxed text-ink-soft">
-            For privacy-related inquiries, please contact us at support@sociovate.io.
+            For privacy-related inquiries, please contact us at support@sociovate.co.
           </p>
         </div>
       </section>

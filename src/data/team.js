@@ -9,7 +9,7 @@ export const team = [
   {
     name: 'Wei Ling Tan',
     title: 'CEO & Co-Founder',
-    email: 'weiling@sociovate.io',
+    email: 'weiling@sociovate.co',
     photo: avatar('Wei Ling Tan'),
     bio: 'Wei Ling spent eight years leading social strategy for regional e-commerce brands before founding Sociovate. She set out to build the automation layer she always wished she had — one dashboard for every platform, every brand.',
     imagePrompt:
@@ -18,7 +18,7 @@ export const team = [
   {
     name: 'Arjun Nair',
     title: 'CTO & Co-Founder',
-    email: 'arjun@sociovate.io',
+    email: 'arjun@sociovate.co',
     photo: avatar('Arjun Nair'),
     bio: 'Arjun is a machine learning engineer who previously built recommendation systems for large social platforms. He leads the AI engine that plans, drafts, and schedules content across every channel Sociovate supports.',
     imagePrompt:
@@ -27,7 +27,7 @@ export const team = [
   {
     name: 'Nur Aisyah Rahman',
     title: 'Head of Product',
-    email: 'aisyah@sociovate.io',
+    email: 'aisyah@sociovate.co',
     photo: avatar('Nur Aisyah Rahman'),
     bio: 'Aisyah brings years of experience designing tools for community and social teams across Southeast Asia. She ensures every calendar, inbox, and dashboard in Sociovate feels effortless to use daily.',
     imagePrompt:
@@ -36,7 +36,7 @@ export const team = [
   {
     name: 'Marcus Lim',
     title: 'VP Engineering',
-    email: 'marcus@sociovate.io',
+    email: 'marcus@sociovate.co',
     photo: avatar('Marcus Lim'),
     bio: 'Marcus is a cloud infrastructure specialist who has scaled publishing systems handling millions of posts per month. He keeps Sociovate fast and reliable as brands publish across every platform simultaneously.',
     imagePrompt:
